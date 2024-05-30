@@ -1,7 +1,7 @@
 import './chat.css';
 
 function Chat(){
-    return <><p>Chat</p>
+    return <><p className='chat'>Chat</p>
     </>
 }
 export default Chat;

@@ -1,7 +1,7 @@
 import "./detail.css";
 
 function Detail(){
-    return <><p>Detail</p></>
+    return <><p className="detail">Detail</p></>
 }
 
 export default Detail;
