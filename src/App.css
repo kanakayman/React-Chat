@@ -3,8 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: white;
-
 }
 
 body{
@@ -13,6 +11,11 @@ body{
   align-items: center;
   justify-content: center;
   height: 100vh;
+  color: white;
+}
+
+button, input, select, textarea {
+  color: inherit;  /* Inherit the color from the parent element */
 }
 
 .container{
@@ -23,5 +26,7 @@ body{
   backdrop-filter: blur(19px) saturate(180%);
   display: flex;
 }
+
+
 
 
